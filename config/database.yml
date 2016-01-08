@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: yelper_development
+  pool: 5
+  username: andrew
+  password: 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: yelper_test
+  pool: 5
+  username: andrew
+  password: 
