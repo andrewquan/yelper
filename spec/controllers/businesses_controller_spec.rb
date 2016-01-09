@@ -19,18 +19,44 @@ describe BusinessesController do
   end
 
   describe "POST create" do
-    context "for authenticated users with valid inputs" do
-      it "creates a business" do
-        alice = Fabricate(:user)
-        session[:user_id] = alice.id
-        post :create, Fabricate.attributes_for(:business)
-        expect(Business.count).to eq(1)
+    context "for authenticated users" do
+      let(:alice) { Fabricate(:user) }
+      before { session[:user_id] = alice.id }
+
+      context "with valid inputs" do
+        it "creates a business" do
+          post :create, business: Fabricate.attributes_for(:business)
+          expect(Business.count).to eq(1)
+        end
+
+        it "sets the flash notice" do
+          post :create, business: Fabricate.attributes_for(:business)
+          expect(flash[:notice]).not_to be_blank
+        end
+
+        it "redirects to home path" do
+          post :create, business: Fabricate.attributes_for(:business)
+          expect(response).to redirect_to home_path
+        end
       end
 
-      it "redirects to business show page"
-    end
+      context "with invalid inputs" do
+        it "does not create a business" do
+          post :create, business: { name: "Starbucks", image_url: "/tmp/starbucks.jpg" }
+          expect(Business.count).to eq(0)
+        end
 
-    context "for authenticated users with invalid inputs"
+        it "renders the new template" do
+          post :create, business: { name: "Starbucks", image_url: "/tmp/starbucks.jpg" }
+          expect(response).to render_template :new
+        end
+
+        it "sets @business" do
+          post :create, business: { name: "Starbucks", image_url: "/tmp/starbucks.jpg" }
+          expect(assigns(:business)).to be_instance_of(Business)
+        end
+      end
+    end
 
     it_behaves_like "requires sign in" do
       let(:action) { post :create, Fabricate.attributes_for(:business) }

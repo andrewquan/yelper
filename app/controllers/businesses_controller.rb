@@ -14,7 +14,14 @@ class BusinessesController < ApplicationController
   end
 
   def create
-    Business.create(business_params)
+    @business = Business.new(business_params)
+    
+    if @business.save
+      flash[:notice] = "You successfully added a business."
+      redirect_to home_path
+    else
+      render :new
+    end
   end
 
   private
