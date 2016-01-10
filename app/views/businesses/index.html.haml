@@ -4,6 +4,6 @@
   .videos.row
     - @businesses.each do |business|
       .video.col-sm-2
-        = link_to "", nil do
+        = link_to business_path(business), nil do
           #{business.name}
           %img(src="#{business.image_url}")

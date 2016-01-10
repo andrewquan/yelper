@@ -16,6 +16,12 @@ describe BusinessesController do
       get :show, id: business.id
       expect(assigns(:business)).to eq(business)
     end
+
+    it "sets @review" do
+      business = Fabricate(:business)
+      get :show, id: business.id
+      expect(assigns(:review)).to be_instance_of(Review)
+    end
   end
 
   describe "POST create" do
