@@ -1,0 +1,9 @@
+%article.video_category
+  %header
+    %h2 Search Results
+  .videos.row
+    - @results.each do |business|
+      .video.col-sm-2
+        = link_to business_path(business), nil do
+          #{business.name}
+          %img(src="#{business.image_url}")

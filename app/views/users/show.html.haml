@@ -1,0 +1,24 @@
+%section.user.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      %article
+        %header
+          %h2 #{@user.full_name}'s Profile
+          %br/
+          %ul
+            %li Email: #{@user.email}
+
+%section.user_reviews.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      %header
+        %h3 #{@user.full_name}'s Reviews (#{@user.reviews.count})
+      %ul
+        - @user.reviews.each do |review|
+          %article.review
+            %li.row
+              .col-sm-2
+                %p
+                  = link_to review.business.name, business_path(review.business)
+              .col-sm-8
+                %p= review.content

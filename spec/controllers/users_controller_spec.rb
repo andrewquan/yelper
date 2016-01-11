@@ -41,4 +41,11 @@ describe UsersController do
       end
     end
   end
+
+  describe "GET show" do
+    it "sets @user" do
+      get :show
+      expect(assigns(:user)).to be_instance_of(User)
+    end
+  end
 end

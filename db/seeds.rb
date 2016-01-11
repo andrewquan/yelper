@@ -15,3 +15,9 @@ panda_express = Business.create(name: "Panda Express", description: "Chinese foo
 
 review1 = Review.create(content: "Awesome stuff!", business_id: chipotle.id, user_id: andrew.id)
 review2 = Review.create(content: "Really good!", business_id: chipotle.id, user_id: gigi.id)
+review3 = Review.create(content: "Awesome stuff!", business_id: starbucks.id, user_id: andrew.id)
+review4 = Review.create(content: "Really good!", business_id: starbucks.id, user_id: gigi.id)
+review5 = Review.create(content: "Awesome stuff!", business_id: panda_express.id, user_id: andrew.id)
+review6 = Review.create(content: "Really good!", business_id: panda_express.id, user_id: gigi.id)
+review7 = Review.create(content: "Awesome stuff!", business_id: chipotle.id, user_id: andrew.id)
+review8 = Review.create(content: "Really good!", business_id: chipotle.id, user_id: gigi.id)

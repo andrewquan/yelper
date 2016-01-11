@@ -68,4 +68,13 @@ describe BusinessesController do
       let(:action) { post :create, Fabricate.attributes_for(:business) }
     end
   end
+
+  describe "POST search" do
+    it "sets @results" do
+      business1 = Fabricate(:business, name: "Chipotle")
+      business2 = Fabricate(:business, name: "Potluck")
+      post :search, search_term: 'pot'
+      expect(assigns(:results)).to match_array([business1, business2])
+    end
+  end
 end

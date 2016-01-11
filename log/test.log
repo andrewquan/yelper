@@ -9479,3 +9479,1484 @@ Redirected to http://test.host/sign_in
 Filter chain halted as :require_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
   [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Id et aut voluptatibus debitis. Magni est eaque deserunt necessitatibus tenetur officiis nihil. Beatae doloribus sed quis magni voluptas aut."], ["created_at", "2016-01-11 00:22:33.730354"], ["updated_at", "2016-01-11 00:22:33.730354"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Quae est esse perspiciatis molestias et qui. Aut reiciendis eligendi similique eos. Sunt quisquam ab cumque illo. Sit alias voluptatibus sequi fugit natus."], ["created_at", "2016-01-11 00:22:33.736326"], ["updated_at", "2016-01-11 00:22:33.736326"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "In dolores quidem ipsa maiores maxime. Est repudiandae magnam. Consectetur dolores neque."], ["created_at", "2016-01-11 00:22:33.738069"], ["updated_at", "2016-01-11 00:22:33.738069"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "In ut quibusdam culpa. Harum sunt tempora ea quia quo et. Nobis inventore odit dignissimos molestiae aliquam non."], ["created_at", "2016-01-11 00:23:08.719244"], ["updated_at", "2016-01-11 00:23:08.719244"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Fugit labore sed suscipit totam temporibus quis. Dolores sint unde eaque sed. Reprehenderit reiciendis aliquid et optio. Est perferendis et. Molestiae velit sed eaque aut."], ["created_at", "2016-01-11 00:23:08.725736"], ["updated_at", "2016-01-11 00:23:08.725736"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Debitis non omnis vel suscipit tenetur eos. Id culpa deleniti sed ratione. Magnam dolores sit. At sit sequi voluptatum veniam voluptatem et enim."], ["created_at", "2016-01-11 00:23:08.727919"], ["updated_at", "2016-01-11 00:23:08.727919"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Non quasi maxime et a ea sit quis. Porro atque doloribus dolorum et. Suscipit ut non numquam aut atque cupiditate omnis."], ["created_at", "2016-01-11 00:23:08.732635"], ["updated_at", "2016-01-11 00:23:08.732635"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Velit non accusantium quas. Dicta voluptatum iure minima inventore qui. Inventore nostrum quasi recusandae veritatis."], ["created_at", "2016-01-11 00:23:08.734557"], ["updated_at", "2016-01-11 00:23:08.734557"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Doloribus debitis numquam ea qui nemo. Itaque nam eos ut sapiente. Vero accusamus reiciendis hic. Voluptatibus et ad ducimus voluptatem possimus non."], ["created_at", "2016-01-11 00:23:08.736549"], ["updated_at", "2016-01-11 00:23:08.736549"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Esse vel iure ullam. Aut itaque dolor facere. Labore doloribus et id. Ut voluptatem et."], ["created_at", "2016-01-11 00:23:08.738499"], ["updated_at", "2016-01-11 00:23:08.738499"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Esse et ab. Ut molestiae harum labore. Eligendi nesciunt omnis atque commodi non dolor est."], ["created_at", "2016-01-11 00:23:08.740376"], ["updated_at", "2016-01-11 00:23:08.740376"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Aut sit quia iste harum cum modi odio. Distinctio qui quisquam amet. Minus natus suscipit corrupti at magni. Hic iste soluta iusto illo. Eum non nihil quaerat sit a nesciunt."], ["created_at", "2016-01-11 00:23:08.742298"], ["updated_at", "2016-01-11 00:23:08.742298"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Magnam ipsum vitae eius aspernatur itaque. Animi ex iure. Ducimus illum ipsam repellendus natus exercitationem ea est."], ["created_at", "2016-01-11 00:23:08.744273"], ["updated_at", "2016-01-11 00:23:08.744273"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT  "reviews".* FROM "reviews"  LIMIT 6[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Iusto exercitationem ut ipsum minus. Voluptas laudantium reprehenderit rem id ab soluta. Aut et aut."], ["created_at", "2016-01-11 00:23:17.785207"], ["updated_at", "2016-01-11 00:23:17.785207"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Perferendis et voluptas rerum. In mollitia atque blanditiis fuga et. Et laudantium nihil dicta fugiat. Aut alias placeat impedit optio qui eius ea."], ["created_at", "2016-01-11 00:23:17.790897"], ["updated_at", "2016-01-11 00:23:17.790897"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Eveniet omnis quae. Sunt et voluptatem. Est animi hic provident in excepturi maxime."], ["created_at", "2016-01-11 00:23:17.792942"], ["updated_at", "2016-01-11 00:23:17.792942"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Quas odit voluptatum ad. Deserunt fugiat magni nam. Accusantium magni corporis. Quia voluptates illum praesentium veritatis ut."], ["created_at", "2016-01-11 00:23:17.798954"], ["updated_at", "2016-01-11 00:23:17.798954"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Asperiores voluptatem ut ut. Similique eum inventore possimus. Occaecati nobis perferendis aut velit dolore. Sit debitis ut provident qui et. Omnis magni illo et et tempora."], ["created_at", "2016-01-11 00:23:17.801307"], ["updated_at", "2016-01-11 00:23:17.801307"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Iste voluptas suscipit. Illo aliquam voluptatem ex pariatur et dolor quia. In sequi explicabo sed dolores."], ["created_at", "2016-01-11 00:23:17.803303"], ["updated_at", "2016-01-11 00:23:17.803303"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Harum repellendus aut quis quod magnam labore autem. Voluptatem et ratione numquam sunt id. Laudantium ullam veniam eveniet aliquid illum."], ["created_at", "2016-01-11 00:23:17.805197"], ["updated_at", "2016-01-11 00:23:17.805197"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Omnis deserunt soluta sed perspiciatis est dolorem labore. Aut tempora soluta qui aut. Sunt possimus sunt ut nesciunt."], ["created_at", "2016-01-11 00:23:17.807477"], ["updated_at", "2016-01-11 00:23:17.807477"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Fugiat earum molestiae doloremque voluptas quidem. Voluptatibus libero nam natus ea illum itaque. Eius asperiores quas quidem in et voluptatem vitae."], ["created_at", "2016-01-11 00:23:17.809162"], ["updated_at", "2016-01-11 00:23:17.809162"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Maiores facere et earum voluptatibus non voluptatum. Minima nihil tenetur rerum natus et ea et. Quo magnam sunt distinctio quidem. Rerum quia molestias voluptatibus quia voluptatum facere."], ["created_at", "2016-01-11 00:23:17.810777"], ["updated_at", "2016-01-11 00:23:17.810777"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Itaque qui quas eum. Magni est delectus aut nihil. Recusandae velit temporibus harum odio. Quaerat pariatur tempora molestiae. Ipsam assumenda voluptas quod eius aliquam non voluptates."], ["created_at", "2016-01-11 00:25:24.391315"], ["updated_at", "2016-01-11 00:25:24.391315"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Aperiam fugit dolor nihil error dolorem. Soluta natus nam quisquam. Quasi magnam quod nulla sit architecto qui ab. Et pariatur quia vero corrupti aliquam laborum accusantium. Commodi consectetur similique nobis minus aut."], ["created_at", "2016-01-11 00:25:24.396530"], ["updated_at", "2016-01-11 00:25:24.396530"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Non doloribus repellendus sit. Sed soluta ipsum dolorem amet excepturi aut. Ipsa corrupti quo id maxime."], ["created_at", "2016-01-11 00:25:24.398274"], ["updated_at", "2016-01-11 00:25:24.398274"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Ratione omnis possimus et. Voluptates corporis quis necessitatibus velit eum voluptatem sed. Omnis enim perferendis minima. Dolorem corporis repudiandae quaerat magni possimus et."], ["created_at", "2016-01-11 00:25:24.400309"], ["updated_at", "2016-01-11 00:25:24.400309"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Est dolor blanditiis commodi ut. Tenetur accusantium iusto nostrum impedit amet quo nesciunt. Ut iure quia laboriosam aperiam cupiditate. Quo et repellendus atque id dolores eos velit. Quidem repellat ut adipisci nihil est impedit."], ["created_at", "2016-01-11 00:25:24.402712"], ["updated_at", "2016-01-11 00:25:24.402712"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Repellendus possimus et ratione sint dolorem. Odit in animi sapiente rerum quo tenetur ipsum. Dolores aut beatae inventore dolores aut architecto. Voluptatem optio qui consequuntur voluptates ab. Quis et officia."], ["created_at", "2016-01-11 00:25:24.404580"], ["updated_at", "2016-01-11 00:25:24.404580"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Aut enim corrupti ea occaecati quisquam dicta. Rem itaque quia. Aut doloremque laboriosam esse et ratione. Reprehenderit earum molestias ab."], ["created_at", "2016-01-11 00:25:24.406295"], ["updated_at", "2016-01-11 00:25:24.406295"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Consequatur omnis illo repudiandae. Voluptatibus soluta perferendis recusandae exercitationem. Incidunt quidem explicabo architecto qui et quam quo. In inventore et quis quasi aliquam consequatur omnis."], ["created_at", "2016-01-10 00:25:24.413008"], ["updated_at", "2016-01-11 00:25:24.420844"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Sit enim quisquam at. Accusantium odio blanditiis quia quo porro repellendus. Non fugiat consequatur. Minima veniam sint magni. Ipsum repellat omnis dolores cum deserunt."], ["created_at", "2016-01-11 00:25:24.422829"], ["updated_at", "2016-01-11 00:25:24.422829"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT  "reviews".* FROM "reviews"  LIMIT 6[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Quia possimus quos et ut quam expedita. Et nulla numquam dolorem. Aut molestiae enim et. Voluptatem a omnis earum exercitationem reiciendis sint voluptatem."], ["created_at", "2016-01-11 00:25:24.427117"], ["updated_at", "2016-01-11 00:25:24.427117"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Sint dolorem voluptas iusto. Minima non ipsam et. Ut aut odio sint numquam ducimus."], ["created_at", "2016-01-11 00:25:24.428648"], ["updated_at", "2016-01-11 00:25:24.428648"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Ad beatae dolores itaque quis. Dolore aut voluptatem pariatur. Placeat nisi qui et. At exercitationem labore."], ["created_at", "2016-01-11 00:25:24.430147"], ["updated_at", "2016-01-11 00:25:24.430147"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT  "reviews".* FROM "reviews"  LIMIT 6
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Vitae magnam ipsa sunt illum. Quibusdam quia ut totam ut ea. Consequatur accusamus nisi distinctio est molestiae laborum praesentium."], ["created_at", "2016-01-10 00:26:21.101288"], ["updated_at", "2016-01-11 00:26:21.488741"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Quia beatae dignissimos illo. Earum dolor ipsum. Esse dicta sit est. Sint eius et nesciunt qui sunt. Non a nesciunt voluptatibus voluptatem voluptas earum ut."], ["created_at", "2016-01-11 00:26:21.494299"], ["updated_at", "2016-01-11 00:26:21.494299"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mReview Load (8.0ms)[0m  [1mSELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Optio ea sit eum explicabo voluptatum dolorem. Animi exercitationem quia eos provident. Consequatur eum ab aspernatur laudantium aliquid soluta."], ["created_at", "2016-01-11 00:26:21.508024"], ["updated_at", "2016-01-11 00:26:21.508024"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Mollitia rerum voluptatum. Est qui dolore libero iusto. Eos sunt hic perspiciatis."], ["created_at", "2016-01-11 00:26:21.510307"], ["updated_at", "2016-01-11 00:26:21.510307"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Incidunt ea est non. Dolore et cumque corporis neque nobis optio. Et ex id deleniti. Deserunt quam sed qui veniam est illo."], ["created_at", "2016-01-11 00:26:21.512272"], ["updated_at", "2016-01-11 00:26:21.512272"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Dicta amet rem earum temporibus qui. Id atque consequatur placeat quasi. Maiores dolor consectetur magnam repellendus quis."], ["created_at", "2016-01-11 00:26:21.514271"], ["updated_at", "2016-01-11 00:26:21.514271"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Rem sint asperiores impedit sit eligendi voluptatibus. Dolorum neque illo animi autem accusamus quaerat consectetur. Quis aspernatur animi consequatur itaque accusamus accusantium voluptatem. Repudiandae non sunt magni possimus temporibus rerum. Ut tempora consequuntur nemo."], ["created_at", "2016-01-11 00:26:21.516550"], ["updated_at", "2016-01-11 00:26:21.516550"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "A est saepe illo. Corporis doloribus iusto deleniti similique consequatur. Quia amet fugit et pariatur. Dolores laudantium dolores doloremque voluptate accusamus atque."], ["created_at", "2016-01-11 00:26:21.518408"], ["updated_at", "2016-01-11 00:26:21.518408"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Porro corporis eos eum consequatur odio repudiandae. Sed consequatur eveniet omnis hic libero quia. Quis sit ut modi illum."], ["created_at", "2016-01-11 00:26:21.520017"], ["updated_at", "2016-01-11 00:26:21.520017"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Doloribus consectetur voluptas sunt repudiandae. Rem repudiandae sequi eaque qui vel. Culpa cum sunt nihil sunt quos. Ipsum et animi."], ["created_at", "2016-01-11 00:26:21.525132"], ["updated_at", "2016-01-11 00:26:21.525132"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Impedit esse modi reiciendis. Nesciunt quas quia. Laboriosam asperiores consequatur fuga saepe. Nulla explicabo veritatis. Vero repellat eos est excepturi at aperiam."], ["created_at", "2016-01-11 00:26:21.527010"], ["updated_at", "2016-01-11 00:26:21.527010"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Non sint officiis vitae enim. Odit eum praesentium molestiae beatae. Quas saepe vero quia illo. Iusto dolorem sit quaerat sed. Provident libero vero aut rerum rerum et quas."], ["created_at", "2016-01-11 00:26:21.528589"], ["updated_at", "2016-01-11 00:26:21.528589"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Illo veniam deleniti id maxime quo. Quaerat et enim. Debitis qui et. Asperiores quo quae ipsa autem quis. Voluptatem dolore numquam non nesciunt beatae consequatur corrupti."], ["created_at", "2016-01-11 00:29:06.522051"], ["updated_at", "2016-01-11 00:29:06.522051"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Cum maxime facere id maiores ea. Enim hic harum libero in rerum. Reiciendis eum neque eos sunt. Omnis itaque ut ut. Cupiditate iure temporibus saepe veniam qui debitis."], ["created_at", "2016-01-11 00:29:06.527555"], ["updated_at", "2016-01-11 00:29:06.527555"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Recusandae inventore nesciunt fugit amet. Cum est aut doloremque laboriosam fuga incidunt provident. Rem nihil molestias dolore similique voluptas et assumenda. Quam sed vero iste eligendi laboriosam id aspernatur."], ["created_at", "2016-01-11 00:29:06.529667"], ["updated_at", "2016-01-11 00:29:06.529667"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Odio placeat qui et unde expedita impedit. Blanditiis repellendus reprehenderit. Iste eveniet nihil magnam molestiae. Voluptas consequatur praesentium."], ["created_at", "2016-01-11 00:29:06.531428"], ["updated_at", "2016-01-11 00:29:06.531428"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Provident illum incidunt odit ut fugit magnam. Suscipit natus distinctio ut. Iste autem fuga sapiente."], ["created_at", "2016-01-11 00:29:06.533186"], ["updated_at", "2016-01-11 00:29:06.533186"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Quis corrupti dolores. Velit voluptatem reiciendis illo quia. Et eum perspiciatis autem ducimus."], ["created_at", "2016-01-11 00:29:06.534808"], ["updated_at", "2016-01-11 00:29:06.534808"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Voluptatem modi accusantium quia. Tempore non voluptatem voluptatum corrupti voluptas qui assumenda. At tenetur sit voluptas quia."], ["created_at", "2016-01-11 00:29:06.536670"], ["updated_at", "2016-01-11 00:29:06.536670"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Ut quo non corrupti nihil sit excepturi reprehenderit. Quia voluptates impedit repellat. Aut odit voluptatem nihil minus omnis consequatur hic. Libero beatae magni non alias neque sed."], ["created_at", "2016-01-11 00:29:06.543972"], ["updated_at", "2016-01-11 00:29:06.543972"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Totam facilis eum. Error totam qui asperiores explicabo laboriosam. Saepe tempore voluptatem et. Laboriosam quia debitis repellendus optio aut dolorum hic."], ["created_at", "2016-01-11 00:29:06.546224"], ["updated_at", "2016-01-11 00:29:06.546224"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Et qui similique ex cupiditate esse. Perferendis accusantium illum doloribus distinctio. Voluptatem quia vero nobis distinctio. Tenetur enim omnis reiciendis nihil recusandae in consequuntur."], ["created_at", "2016-01-11 00:29:06.548274"], ["updated_at", "2016-01-11 00:29:06.548274"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "reviews"  LIMIT 6) subquery_for_count
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Est nam qui laboriosam maxime. Rerum repudiandae dicta ut est voluptates qui est. Non ipsa in mollitia et quia. Est et commodi dolores molestiae. Iste voluptatem dolore qui sunt est et."], ["created_at", "2016-01-10 00:29:06.551285"], ["updated_at", "2016-01-11 00:29:06.552583"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Rem accusamus veniam explicabo asperiores. Enim quasi facere autem incidunt reprehenderit. Harum animi tenetur et."], ["created_at", "2016-01-11 00:29:06.554408"], ["updated_at", "2016-01-11 00:29:06.554408"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mReview Load (0.9ms)[0m  [1mSELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mReview Load (0.3ms)[0m  SELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Nesciunt unde quae officiis qui nisi. Voluptate assumenda sed similique in at. Dicta quae vitae. Incidunt minima et."], ["created_at", "2016-01-10 00:29:06.559016"], ["updated_at", "2016-01-11 00:29:06.560066"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Est voluptas deserunt dolore magnam. Et aut placeat necessitatibus rerum voluptas. Praesentium corrupti perspiciatis. Ut non doloribus deleniti. Adipisci rerum quo quaerat autem qui."], ["created_at", "2016-01-11 00:29:06.561874"], ["updated_at", "2016-01-11 00:29:06.561874"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Delectus voluptatibus excepturi libero reiciendis maxime iusto. Sapiente quia laborum distinctio molestias adipisci nisi possimus. Non quibusdam doloremque. Suscipit ea et exercitationem nemo porro eligendi. Dolorem eius accusantium consequatur nihil dolorem fugiat."], ["created_at", "2016-01-11 00:29:06.563651"], ["updated_at", "2016-01-11 00:29:06.563651"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Doloribus non dolores quas modi aut quibusdam delectus. Odio earum et. Voluptas sed quo vero."], ["created_at", "2016-01-11 00:29:06.565228"], ["updated_at", "2016-01-11 00:29:06.565228"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Quis assumenda debitis eveniet quaerat. Et unde vel eligendi totam repellat. Consequatur aspernatur ex sit quaerat nisi optio. Deserunt ea rerum. Dolores quasi qui numquam."], ["created_at", "2016-01-11 00:29:06.566986"], ["updated_at", "2016-01-11 00:29:06.566986"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["content", "Exercitationem et et consequatur soluta. Nihil error quos sunt voluptates. Impedit nam fugiat."], ["created_at", "2016-01-11 00:29:06.568416"], ["updated_at", "2016-01-11 00:29:06.568416"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "reviews" ("content", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["content", "Occaecati minima quasi provident aut quo. Voluptatem non provident. Culpa corporis magni harum qui."], ["created_at", "2016-01-11 00:29:06.569882"], ["updated_at", "2016-01-11 00:29:06.569882"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mReview Load (0.3ms)[0m  SELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (24.6ms)[0m  CREATE TABLE "businesses" ("id" serial primary key, "name" character varying(255), "description" text, "image_url" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (4.5ms)[0m  [1mCREATE TABLE "reviews" ("id" serial primary key, "business_id" integer, "user_id" integer, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (4.1ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "password_digest" character varying(255), "full_name" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.6ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160109084338')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160107060511')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160108001502')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:21:51.946046"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:21:51.946046"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:21:51.950716"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:21:51.950716"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:23:08.594743"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:23:08.594743"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:23:08.599887"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:23:08.599887"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (3.5ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:24:51.992855"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:24:51.992855"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:24:51.997355"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:24:51.997355"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%chipotle%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:24:52.000495"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:24:52.000495"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:24:52.002084"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:24:52.002084"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:25:18.587000"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:25:18.587000"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:25:18.591944"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:25:18.591944"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.7ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%starbucks%')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:25:18.596797"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:25:18.596797"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:25:18.598183"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:25:18.598183"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%chipotle%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:25:18.600861"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:25:18.600861"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:25:18.602165"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:25:18.602165"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:26:24.996120"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:26:24.996120"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:26:25.001038"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:26:25.001038"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:26:25.005102"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:26:25.005102"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:26:25.006577"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:26:25.006577"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%starbucks%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:26:25.009451"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:26:25.009451"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:26:25.010874"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:26:25.010874"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:26:25.013269"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:26:25.013269"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:26:25.014626"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:26:25.014626"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%chipotle%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:10.329635"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.329635"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:10.334702"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:28:10.334702"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:10.339985"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.339985"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:10.341381"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.341381"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%chipotle%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:10.343841"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.343841"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:10.345191"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:28:10.345191"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%starbucks%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:10.347517"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.347517"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:10.348638"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:28:10.348638"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:10.350652"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:10.350652"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:10.351807"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:28:10.351807"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:29.356976"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.356976"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:29.361340"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:28:29.361340"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (7.8ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%starbucks%')  ORDER BY created_at DESC[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:29.372512"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.372512"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:29.373964"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-11 01:28:29.373964"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%hello%')  ORDER BY created_at DESC
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:29.376460"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.376460"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:29.377790"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:28:29.377790"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')  ORDER BY created_at DESC[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:29.380373"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.380373"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:29.381520"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:28:29.381520"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')  ORDER BY created_at DESC
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:28:29.383770"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.383770"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:28:29.384858"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:28:29.384858"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%chipotle%')  ORDER BY created_at DESC[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.326830"], ["description", "Et fuga dolorum odio enim et quia. Quia et voluptatum. Soluta est qui culpa numquam veniam. Illo eum quia ut eligendi. Explicabo consequatur quia animi atque incidunt."], ["image_url", "/tmp/starbucks.jpg"], ["name", "aut"], ["updated_at", "2016-01-11 01:37:31.326830"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.332882"], ["description", "Nisi vitae qui facilis. Voluptas nobis excepturi consequuntur et dolorem. Minus unde et placeat velit odit."], ["image_url", "/tmp/chipotle.jpg"], ["name", "itaque"], ["updated_at", "2016-01-11 01:37:31.332882"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+  Rendered businesses/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (1.7ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'urban.steuber@stoltenberg.org' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'urban.steuber@stoltenberg.org' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.380285"], ["email", "urban.steuber@stoltenberg.org"], ["full_name", "Daniela Kerluke"], ["password_digest", "$2a$04$yOQNaoBfshoHDIIn5W/BYehpjqpen5ju1Xc3BSP8walENT//QRDrG"], ["updated_at", "2016-01-11 01:37:31.380285"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"doloribus", "description"=>"Distinctio officiis aliquam aut. Repellat velit laudantium. Pariatur aut modi sit quos tempore. Dolorem tempora error. Ducimus consequatur quo.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.385472"], ["description", "Distinctio officiis aliquam aut. Repellat velit laudantium. Pariatur aut modi sit quos tempore. Dolorem tempora error. Ducimus consequatur quo."], ["image_url", "/tmp/starbucks.jpg"], ["name", "doloribus"], ["updated_at", "2016-01-11 01:37:31.385472"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'yasmin.turcotte@schroedercruickshank.biz' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'yasmin.turcotte@schroedercruickshank.biz' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.394634"], ["email", "yasmin.turcotte@schroedercruickshank.biz"], ["full_name", "Vincent Carter"], ["password_digest", "$2a$04$nuQ69Tc3i35bUlU4eXIgL.f7hseK8WCBDlqhNdpZ2s3KE0.9tZXyy"], ["updated_at", "2016-01-11 01:37:31.394634"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"et", "description"=>"Reiciendis beatae vitae expedita. Dolores qui dolorum. Numquam architecto sequi asperiores. Eos facilis laborum nulla iste.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.399765"], ["description", "Reiciendis beatae vitae expedita. Dolores qui dolorum. Numquam architecto sequi asperiores. Eos facilis laborum nulla iste."], ["image_url", "/tmp/panda_express.jpg"], ["name", "et"], ["updated_at", "2016-01-11 01:37:31.399765"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anne@dickens.org' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anne@dickens.org' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.408658"], ["email", "anne@dickens.org"], ["full_name", "Chasity Beer"], ["password_digest", "$2a$04$q5sZ55kkjA6i7swaHKHv4.Stpe9eTt1lg0PYxNZDnArhXXniGQ.OC"], ["updated_at", "2016-01-11 01:37:31.408658"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"nesciunt", "description"=>"Saepe veniam aspernatur ipsa consectetur nihil. Repellat vel non ipsa aut atque. Reprehenderit quibusdam ut laboriosam sint. Nam non rem dolore voluptatem architecto fugit commodi.", "image_url"=>"/tmp/chipotle.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.413259"], ["description", "Saepe veniam aspernatur ipsa consectetur nihil. Repellat vel non ipsa aut atque. Reprehenderit quibusdam ut laboriosam sint. Nam non rem dolore voluptatem architecto fugit commodi."], ["image_url", "/tmp/chipotle.jpg"], ["name", "nesciunt"], ["updated_at", "2016-01-11 01:37:31.413259"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jada@mclaughlin.biz' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jada@mclaughlin.biz' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.421427"], ["email", "jada@mclaughlin.biz"], ["full_name", "Kirsten McGlynn V"], ["password_digest", "$2a$04$lijz8HfDO0TPby1wg7G1ueTral7AF7ELiXQ67zOaj9X/QNCmrNqsG"], ["updated_at", "2016-01-11 01:37:31.421427"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wilson@fahey.io' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wilson@fahey.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.437170"], ["email", "wilson@fahey.io"], ["full_name", "Miss Noelia Lakin"], ["password_digest", "$2a$04$wOS8H0Nl4jMqKARtHcAaZuDB4l7p9gy3tUJARZMTlx1IdgAdbZjB2"], ["updated_at", "2016-01-11 01:37:31.437170"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nelson.smith@jacobs.name' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nelson.smith@jacobs.name' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.450423"], ["email", "nelson.smith@jacobs.name"], ["full_name", "Mr. Burley Stamm"], ["password_digest", "$2a$04$0lOmIYk.wAQSqoNky5K8Be.bfKwDNZ5bGWgSmd7lLXhg76XKmk0VG"], ["updated_at", "2016-01-11 01:37:31.450423"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"dolore", "description"=>"Debitis ratione molestiae ad. Harum possimus voluptatem rerum praesentium dolore eum. Corporis quod sit laboriosam.", "image_url"=>"/tmp/panda_express.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.462197"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:37:31.462197"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:37:31.463674"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:37:31.463674"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#search as HTML
+  Parameters: {"search_term"=>"pot"}
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.470075"], ["description", "Natus at perferendis mollitia impedit voluptatem porro. Sint dignissimos explicabo eligendi assumenda delectus molestias ut. Aut ut id doloribus incidunt accusamus. Aut dolorum magnam voluptas dolorem nihil. Nobis perspiciatis asperiores consequatur."], ["image_url", "/tmp/panda_express.jpg"], ["name", "repellendus"], ["updated_at", "2016-01-11 01:37:31.470075"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"50"}
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 50]]
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 2.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:37:31.483944"], ["description", "Sequi rerum eius nesciunt. Culpa voluptas architecto ex. Qui porro mollitia et distinctio."], ["image_url", "/tmp/starbucks.jpg"], ["name", "magni"], ["updated_at", "2016-01-11 01:37:31.483944"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"51"}
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 51]]
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.084166"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:38:02.084166"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:02.088683"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:38:02.088683"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#search as HTML
+  Parameters: {"search_term"=>"pot"}
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ora@price.info' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ora@price.info' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.555481"], ["email", "ora@price.info"], ["full_name", "Ms. Libby Mitchell"], ["password_digest", "$2a$04$gIfzX9ezlxYb4UmoySxxZOpil6Eclh8bdUDKTbpwsSNkFAPAHxW9O"], ["updated_at", "2016-01-11 01:38:02.555481"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"odio", "description"=>"Totam error quas. Dolores illum sequi corporis dicta amet. Quasi in est. In laboriosam dolores veniam sunt qui recusandae possimus. Ipsum rerum voluptatem rem corporis doloremque.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.560742"], ["description", "Totam error quas. Dolores illum sequi corporis dicta amet. Quasi in est. In laboriosam dolores veniam sunt qui recusandae possimus. Ipsum rerum voluptatem rem corporis doloremque."], ["image_url", "/tmp/starbucks.jpg"], ["name", "odio"], ["updated_at", "2016-01-11 01:38:02.560742"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'augustus@littelrolfson.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'augustus@littelrolfson.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:02.568012"], ["email", "augustus@littelrolfson.com"], ["full_name", "Hardy Bahringer"], ["password_digest", "$2a$04$BOvqC4979s1Is9SK5oIOIurs5EhcbCO6KLD7pJwjEJ3cJgCEYDyGC"], ["updated_at", "2016-01-11 01:38:02.568012"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"dicta", "description"=>"Veritatis aut id ipsum ut et. Occaecati facere soluta odio quia. Quia ut dolor aut dolores.", "image_url"=>"/tmp/chipotle.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:02.572939"], ["description", "Veritatis aut id ipsum ut et. Occaecati facere soluta odio quia. Quia ut dolor aut dolores."], ["image_url", "/tmp/chipotle.jpg"], ["name", "dicta"], ["updated_at", "2016-01-11 01:38:02.572939"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lizeth.hagenes@sanford.co' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lizeth.hagenes@sanford.co' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.581489"], ["email", "lizeth.hagenes@sanford.co"], ["full_name", "Lilla Goodwin"], ["password_digest", "$2a$04$uG7WTfjUV7tdkPPPZxEXauzhhdoC5nHzgypMiv7adt4CfTovtSAEG"], ["updated_at", "2016-01-11 01:38:02.581489"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"molestias", "description"=>"Dicta distinctio quia deserunt. Et natus est a iure perspiciatis consequuntur. Ullam temporibus sunt aspernatur neque consequatur. Ut facilis voluptas et aut quis et. Natus facere doloremque suscipit consequuntur ipsam qui.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.585754"], ["description", "Dicta distinctio quia deserunt. Et natus est a iure perspiciatis consequuntur. Ullam temporibus sunt aspernatur neque consequatur. Ut facilis voluptas et aut quis et. Natus facere doloremque suscipit consequuntur ipsam qui."], ["image_url", "/tmp/starbucks.jpg"], ["name", "molestias"], ["updated_at", "2016-01-11 01:38:02.585754"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'carleton@hudson.net' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'carleton@hudson.net' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.593916"], ["email", "carleton@hudson.net"], ["full_name", "Miss Gennaro Leffler"], ["password_digest", "$2a$04$9L74WyU7Mo5a.b/w8Wo0uOpSbKEggQ84hTID6qfJQ2AeXJd9l15Ku"], ["updated_at", "2016-01-11 01:38:02.593916"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'kitty@lebsack.io' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'kitty@lebsack.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.613275"], ["email", "kitty@lebsack.io"], ["full_name", "Jefferey Schneider"], ["password_digest", "$2a$04$ieTrNWoxquGA8zumgSOSKuUqWQPMY6ePHu3H/iaPVDfp6zK1gz0aa"], ["updated_at", "2016-01-11 01:38:02.613275"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nikita.gutmann@mills.io' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'nikita.gutmann@mills.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.627144"], ["email", "nikita.gutmann@mills.io"], ["full_name", "Kenya Krajcik Jr."], ["password_digest", "$2a$04$1P7qm7AIORQo/wwn/lqyj.BXpJT8rZCqPAx8149vt4oplqXwQbTUK"], ["updated_at", "2016-01-11 01:38:02.627144"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"enim", "description"=>"Aut sint voluptatem. Iusto quia debitis quaerat deserunt perspiciatis. Itaque qui animi quia delectus a. Culpa dolores omnis ex sit maiores. Repellat quia id libero.", "image_url"=>"/tmp/starbucks.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:02.639043"], ["description", "Est consequuntur qui eum qui totam ut dicta. Aut cumque consequatur accusantium. Ut rem atque amet nulla consequatur. Provident nihil est harum. Maxime dolores labore excepturi temporibus quasi odio."], ["image_url", "/tmp/starbucks.jpg"], ["name", "ipsam"], ["updated_at", "2016-01-11 01:38:02.639043"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.641047"], ["description", "Sapiente aliquid in ea. Quisquam qui ut in nostrum deleniti et molestiae. Voluptas laboriosam quam sed aut consequatur aut voluptatibus. Voluptatem earum quia vero ut autem repudiandae."], ["image_url", "/tmp/panda_express.jpg"], ["name", "quaerat"], ["updated_at", "2016-01-11 01:38:02.641047"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT "businesses".* FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.649084"], ["description", "Aut pariatur omnis quasi aut sapiente. Quia aliquid est pariatur porro. Repudiandae illo blanditiis et. Rem repellendus quos molestiae autem consequatur placeat maiores."], ["image_url", "/tmp/panda_express.jpg"], ["name", "doloribus"], ["updated_at", "2016-01-11 01:38:02.649084"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"59"}
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 59]]
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 2.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:02.663075"], ["description", "Libero odit quia reprehenderit dolore fugit distinctio molestiae. Excepturi non aut dolor ea et. Voluptas voluptatibus ab illo nostrum."], ["image_url", "/tmp/chipotle.jpg"], ["name", "aspernatur"], ["updated_at", "2016-01-11 01:38:02.663075"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"60"}
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 60]]
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.440988"], ["description", "Amet sapiente possimus. Non delectus ut aut eos dolore. Eius culpa ratione consequatur."], ["image_url", "/tmp/chipotle.jpg"], ["name", "veniam"], ["updated_at", "2016-01-11 01:38:28.440988"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.446101"], ["description", "Rem magni qui. Corporis qui error omnis exercitationem qui. Ex quaerat suscipit et est est possimus fugit."], ["image_url", "/tmp/starbucks.jpg"], ["name", "rerum"], ["updated_at", "2016-01-11 01:38:28.446101"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+  Rendered businesses/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.462478"], ["description", "Facere quia quaerat culpa ut voluptas laudantium nam. Et numquam consequatur odio sit consectetur. Dolores eius est impedit ducimus placeat delectus. Ut incidunt voluptatem et ducimus vel."], ["image_url", "/tmp/starbucks.jpg"], ["name", "officia"], ["updated_at", "2016-01-11 01:38:28.462478"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"63"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 63]]
+Completed 200 OK in 10ms (Views: 1.5ms | ActiveRecord: 2.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.477797"], ["description", "Facere eos rerum quidem tempora. Soluta hic eos sunt odit. Aut enim eos in dignissimos deleniti unde. Fugiat cum iure autem rerum eius ipsa."], ["image_url", "/tmp/panda_express.jpg"], ["name", "maxime"], ["updated_at", "2016-01-11 01:38:28.477797"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"64"}
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 64]]
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (1.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'rebeca@hodkiewicz.info' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'rebeca@hodkiewicz.info' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.512720"], ["email", "rebeca@hodkiewicz.info"], ["full_name", "Dudley Von"], ["password_digest", "$2a$04$.hFt2NRaONm/BktlEJoxzOwvA/FsoT5i0/l2P5bxuU3lOjW7Jhbji"], ["updated_at", "2016-01-11 01:38:28.512720"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"exercitationem", "description"=>"Et quod aut nisi voluptatem. Aut consectetur tempore consequatur perferendis. Nihil nam reprehenderit. Soluta et molestiae aut.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.518669"], ["description", "Et quod aut nisi voluptatem. Aut consectetur tempore consequatur perferendis. Nihil nam reprehenderit. Soluta et molestiae aut."], ["image_url", "/tmp/starbucks.jpg"], ["name", "exercitationem"], ["updated_at", "2016-01-11 01:38:28.518669"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'myrtle_breitenberg@reynoldchulist.net' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'myrtle_breitenberg@reynoldchulist.net' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.528797"], ["email", "myrtle_breitenberg@reynoldchulist.net"], ["full_name", "Andre Halvorson II"], ["password_digest", "$2a$04$i9LmagDivsxE4dIzqKLJQeLYzOC/3i7NTR4BqpeFp/qOzX8kESuK2"], ["updated_at", "2016-01-11 01:38:28.528797"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"maxime", "description"=>"Et reiciendis molestias. Eos libero sit aut illo aut. Eum et fuga.", "image_url"=>"/tmp/chipotle.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.533426"], ["description", "Et reiciendis molestias. Eos libero sit aut illo aut. Eum et fuga."], ["image_url", "/tmp/chipotle.jpg"], ["name", "maxime"], ["updated_at", "2016-01-11 01:38:28.533426"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'dave@parker.org' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'dave@parker.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.540687"], ["email", "dave@parker.org"], ["full_name", "Bridie Pacocha DDS"], ["password_digest", "$2a$04$ijM7JIXZniAZqU6aZ.2pY.S9xbZiLk/8jdvsJ6uhl8Y/X5v/GYh6O"], ["updated_at", "2016-01-11 01:38:28.540687"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"eos", "description"=>"Ullam illum ut qui cumque soluta nesciunt. Animi architecto deserunt aliquid aut adipisci quia sint. Voluptatem ut laudantium veritatis accusantium ut unde. Quibusdam maxime animi alias dicta. Officia hic qui quod non.", "image_url"=>"/tmp/chipotle.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.544420"], ["description", "Ullam illum ut qui cumque soluta nesciunt. Animi architecto deserunt aliquid aut adipisci quia sint. Voluptatem ut laudantium veritatis accusantium ut unde. Quibusdam maxime animi alias dicta. Officia hic qui quod non."], ["image_url", "/tmp/chipotle.jpg"], ["name", "eos"], ["updated_at", "2016-01-11 01:38:28.544420"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'damion.lang@breitenberg.co' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'damion.lang@breitenberg.co' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.551681"], ["email", "damion.lang@breitenberg.co"], ["full_name", "Miss Kaleb Kovacek"], ["password_digest", "$2a$04$J1dUEyZ3Duy1kUDqHqkfT.xrJDUCy5nO2jW9pabGppPtTc0ucL./m"], ["updated_at", "2016-01-11 01:38:28.551681"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'glenna@damore.net' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'glenna@damore.net' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.563788"], ["email", "glenna@damore.net"], ["full_name", "Mrs. Karolann Mante"], ["password_digest", "$2a$04$dvv8HwTTtWKpAdq1qP5msOOz90.vWV1gsqIkdHLsRb8GZQZQl0HSO"], ["updated_at", "2016-01-11 01:38:28.563788"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jayda.beahan@jacobs.info' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jayda.beahan@jacobs.info' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.574294"], ["email", "jayda.beahan@jacobs.info"], ["full_name", "Pascale Gibson"], ["password_digest", "$2a$04$.a2ZRUe5U8aK3RH6l2gfKOyjO1YGtS1NomLRQKP8RYOQ5jIh0LNw."], ["updated_at", "2016-01-11 01:38:28.574294"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"ratione", "description"=>"Mollitia eos cupiditate. Sunt at amet vel est dolores rerum. Rerum ad voluptas dolores voluptas. Eum expedita facilis quia aperiam consequatur magnam. Omnis aliquid amet molestias a ab dolores.", "image_url"=>"/tmp/chipotle.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:38:28.584934"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:38:28.584934"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:38:28.586333"], ["description", "Made up shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:38:28.586333"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#search as HTML
+  Parameters: {"search_term"=>"pot"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.135260"], ["description", "Atque est adipisci est quia necessitatibus corporis illum. Veniam tempora omnis quia dolorum vel at sed. Animi doloremque blanditiis quia sit amet error debitis. Recusandae itaque ea. Ut architecto delectus quia necessitatibus esse."], ["image_url", "/tmp/chipotle.jpg"], ["name", "eum"], ["updated_at", "2016-01-11 01:41:06.135260"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"70"}
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 70]]
+  Rendered businesses/show.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 24.5ms | ActiveRecord: 2.4ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.181790"], ["description", "Porro possimus sunt. Sit et dolores qui ipsam quo. Voluptatum aliquid ut nostrum dolores."], ["image_url", "/tmp/chipotle.jpg"], ["name", "autem"], ["updated_at", "2016-01-11 01:41:06.181790"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"71"}
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 71]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.192019"], ["description", "Eaque reiciendis tempore fuga eos. Cumque ea inventore. Amet facilis esse aut quam. Fugiat occaecati dicta saepe sed id consequatur. Blanditiis ut provident voluptatum."], ["image_url", "/tmp/panda_express.jpg"], ["name", "nostrum"], ["updated_at", "2016-01-11 01:41:06.192019"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:41:06.194036"], ["description", "Sint exercitationem soluta tenetur. Quia atque ut aut et. Unde sint nulla."], ["image_url", "/tmp/panda_express.jpg"], ["name", "ipsum"], ["updated_at", "2016-01-11 01:41:06.194036"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'erling_hegmann@greenfelder.biz' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'erling_hegmann@greenfelder.biz' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:41:06.228549"], ["email", "erling_hegmann@greenfelder.biz"], ["full_name", "Karson Shields"], ["password_digest", "$2a$04$d/7hrt8fyZwSkGj8LUcX6u7fxFX0tDpum8A0uMW5eNjvaUxcLR4Yq"], ["updated_at", "2016-01-11 01:41:06.228549"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"est", "description"=>"Soluta fuga et non officiis molestias facilis voluptatem. Consectetur perspiciatis voluptatem esse dolor reprehenderit. Fugit molestias ut sapiente alias.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:41:06.233449"], ["description", "Soluta fuga et non officiis molestias facilis voluptatem. Consectetur perspiciatis voluptatem esse dolor reprehenderit. Fugit molestias ut sapiente alias."], ["image_url", "/tmp/panda_express.jpg"], ["name", "est"], ["updated_at", "2016-01-11 01:41:06.233449"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'guadalupe@walker.net' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'guadalupe@walker.net' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.241254"], ["email", "guadalupe@walker.net"], ["full_name", "Florence Gottlieb"], ["password_digest", "$2a$04$MaD1fTj/Zl.XHGnk3ewQRuUE/hD767WObBL2cZy.ulDKrSJVQ.lfy"], ["updated_at", "2016-01-11 01:41:06.241254"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"consectetur", "description"=>"Officia inventore ut doloremque et necessitatibus. Officiis recusandae vel. Aut architecto non. Qui quis maxime ea. Ea vel laudantium voluptas nobis accusantium odit.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.246061"], ["description", "Officia inventore ut doloremque et necessitatibus. Officiis recusandae vel. Aut architecto non. Qui quis maxime ea. Ea vel laudantium voluptas nobis accusantium odit."], ["image_url", "/tmp/panda_express.jpg"], ["name", "consectetur"], ["updated_at", "2016-01-11 01:41:06.246061"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'tomasa@crist.co' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'tomasa@crist.co' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.254000"], ["email", "tomasa@crist.co"], ["full_name", "Lesley Abernathy"], ["password_digest", "$2a$04$WzWDd/XTvwv4pPLEqaiUX.D1pyDgcU74Ezj06idAMggnzo5VNKpci"], ["updated_at", "2016-01-11 01:41:06.254000"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"consectetur", "description"=>"Temporibus alias dolores est. Dolores sed officiis accusamus nesciunt qui quaerat earum. Tempora dolorum cum eum maiores.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.259238"], ["description", "Temporibus alias dolores est. Dolores sed officiis accusamus nesciunt qui quaerat earum. Tempora dolorum cum eum maiores."], ["image_url", "/tmp/panda_express.jpg"], ["name", "consectetur"], ["updated_at", "2016-01-11 01:41:06.259238"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'zelda@murrayhermann.io' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'zelda@murrayhermann.io' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:41:06.267799"], ["email", "zelda@murrayhermann.io"], ["full_name", "Chasity Stehr"], ["password_digest", "$2a$04$idvZlwnVBIw4G7BCJ9.kHeGCeHMDlNLzxORgkbwjaA9XjQkpq06lm"], ["updated_at", "2016-01-11 01:41:06.267799"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'myriam.champlin@goldner.info' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'myriam.champlin@goldner.info' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:41:06.280588"], ["email", "myriam.champlin@goldner.info"], ["full_name", "Catalina Christiansen V"], ["password_digest", "$2a$04$3TEVlkgzjkHDCeR1Ms5Uh.S.yVtxSET1N8PQtBVsv0iDINvHjnlfq"], ["updated_at", "2016-01-11 01:41:06.280588"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lonny@mannsteuber.co' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lonny@mannsteuber.co' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:41:06.291820"], ["email", "lonny@mannsteuber.co"], ["full_name", "Miss Maurine Weissnat"], ["password_digest", "$2a$04$SjPY79LtjyHO64Lu98wjMe7GlX6Z8Lf61KysNN94Z1tcVJHdYVTKm"], ["updated_at", "2016-01-11 01:41:06.291820"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"ex", "description"=>"Vel laudantium molestiae aut magni eum. Ea id consequatur. Qui quam et non mollitia voluptatem hic.", "image_url"=>"/tmp/starbucks.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:14.868004"], ["description", "Et et asperiores et neque occaecati a. Laboriosam corrupti a magni facilis quis blanditiis. Dicta vitae quibusdam aut in animi nam exercitationem."], ["image_url", "/tmp/chipotle.jpg"], ["name", "nesciunt"], ["updated_at", "2016-01-11 01:58:14.868004"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.874042"], ["description", "Sit quae quia doloribus nihil facere veritatis corporis. Explicabo ut id assumenda. Distinctio fugiat dolor qui beatae pariatur libero. Earum omnis doloremque harum et quae quam sit."], ["image_url", "/tmp/chipotle.jpg"], ["name", "consequatur"], ["updated_at", "2016-01-11 01:58:14.874042"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+  Rendered businesses/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.891341"], ["description", "Laborum explicabo nisi voluptatem. Id delectus dolor. Unde neque qui iusto ea. Eum optio minima corporis. Ratione autem impedit aut."], ["image_url", "/tmp/panda_express.jpg"], ["name", "aut"], ["updated_at", "2016-01-11 01:58:14.891341"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 10ms (Views: 1.5ms | ActiveRecord: 2.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.906665"], ["description", "Adipisci eveniet aut est. Rerum ut rem. Aut est ut."], ["image_url", "/tmp/chipotle.jpg"], ["name", "qui"], ["updated_at", "2016-01-11 01:58:14.906665"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (3.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jackeline@kovacek.io' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jackeline@kovacek.io' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.948922"], ["email", "jackeline@kovacek.io"], ["full_name", "Josie Torp"], ["password_digest", "$2a$04$fVJo52.pfNLtVwljgQ8n1.351rNsmraZSkeYggjEzRLtsOwDvG/f."], ["updated_at", "2016-01-11 01:58:14.948922"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"quasi", "description"=>"Beatae quo inventore ut possimus blanditiis omnis enim. In autem ut. Quia nostrum et nisi architecto. Dolores minus expedita dolor itaque. Explicabo quia omnis qui quis rem molestiae.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.953678"], ["description", "Beatae quo inventore ut possimus blanditiis omnis enim. In autem ut. Quia nostrum et nisi architecto. Dolores minus expedita dolor itaque. Explicabo quia omnis qui quis rem molestiae."], ["image_url", "/tmp/starbucks.jpg"], ["name", "quasi"], ["updated_at", "2016-01-11 01:58:14.953678"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anika@monahan.io' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'anika@monahan.io' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.963017"], ["email", "anika@monahan.io"], ["full_name", "Amely Price"], ["password_digest", "$2a$04$GPOx5MaxW/fRATmqBS/eTeWwbgnwNikToAmXhvn4cFTmQa711Eumu"], ["updated_at", "2016-01-11 01:58:14.963017"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"ut", "description"=>"Rerum iste error ipsam assumenda culpa. Suscipit aliquam ut. Modi voluptates magni incidunt aliquam ut sed. Id quae fuga repellendus. Dolor officiis aut.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.967584"], ["description", "Rerum iste error ipsam assumenda culpa. Suscipit aliquam ut. Modi voluptates magni incidunt aliquam ut sed. Id quae fuga repellendus. Dolor officiis aut."], ["image_url", "/tmp/starbucks.jpg"], ["name", "ut"], ["updated_at", "2016-01-11 01:58:14.967584"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ken.bauch@purdygibson.name' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ken.bauch@purdygibson.name' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:14.974563"], ["email", "ken.bauch@purdygibson.name"], ["full_name", "Mr. Arnold Brekke"], ["password_digest", "$2a$04$uROhJs0rp8YHGplZP4FbH.JsGXvvw7BpmvMfck8mOtVD1DW.sTQwe"], ["updated_at", "2016-01-11 01:58:14.974563"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"est", "description"=>"Laudantium repudiandae non porro ipsa quaerat numquam earum. Et harum voluptas et. Atque magnam dolorem deserunt et laudantium. Placeat enim nam error. Quae nihil deserunt odio eligendi amet sapiente.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:14.978324"], ["description", "Laudantium repudiandae non porro ipsa quaerat numquam earum. Et harum voluptas et. Atque magnam dolorem deserunt et laudantium. Placeat enim nam error. Quae nihil deserunt odio eligendi amet sapiente."], ["image_url", "/tmp/panda_express.jpg"], ["name", "est"], ["updated_at", "2016-01-11 01:58:14.978324"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lambert_cartwright@collier.net' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lambert_cartwright@collier.net' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:14.984884"], ["email", "lambert_cartwright@collier.net"], ["full_name", "Lemuel Rohan"], ["password_digest", "$2a$04$6oZMCtQ2kMEkK6ayXKQR6uYWlk1cLTDRqq.zjsT0RvNfeBnp0Kdgy"], ["updated_at", "2016-01-11 01:58:14.984884"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'edmund.welch@hammes.biz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'edmund.welch@hammes.biz' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:14.997838"], ["email", "edmund.welch@hammes.biz"], ["full_name", "Hattie Kassulke"], ["password_digest", "$2a$04$iStjcfgZ1ojfMaCjejfJteRL074p45KIdQxONg51SKqkBf5PaecHi"], ["updated_at", "2016-01-11 01:58:14.997838"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ewald@witting.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ewald@witting.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:15.008901"], ["email", "ewald@witting.com"], ["full_name", "Mr. Alycia Orn"], ["password_digest", "$2a$04$INVWiIkmwfpoWln1XXTmaODQjqdIKjC1sUggL46D4BIyChkDurIR."], ["updated_at", "2016-01-11 01:58:15.008901"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"dolorem", "description"=>"Harum amet vel. Itaque ut cum voluptas repellendus unde doloremque quasi. Quos adipisci nostrum ratione ipsum numquam. Maiores expedita neque. Saepe rem ut minima.", "image_url"=>"/tmp/panda_express.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.782866"], ["description", "Ut eum tempora. Sit dolore mollitia eum ipsa minima aliquam eos. Ipsum cum tempora eveniet qui."], ["image_url", "/tmp/starbucks.jpg"], ["name", "nam"], ["updated_at", "2016-01-11 01:58:24.782866"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.788164"], ["description", "Repellat fugiat animi voluptatem quasi nulla. Molestias odit eaque iusto voluptatem magnam est debitis. Est dolorem voluptatem necessitatibus velit suscipit autem. Accusantium culpa eos nisi fugiat."], ["image_url", "/tmp/chipotle.jpg"], ["name", "mollitia"], ["updated_at", "2016-01-11 01:58:24.788164"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+  Rendered businesses/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.805262"], ["description", "Fuga voluptatem labore sed. Non inventore hic aut debitis. Et possimus quisquam repellendus dignissimos rem et."], ["image_url", "/tmp/chipotle.jpg"], ["name", "vel"], ["updated_at", "2016-01-11 01:58:24.805262"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Completed 200 OK in 12ms (Views: 1.8ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.823423"], ["description", "Voluptas labore ea nam et asperiores dicta. Ipsam libero sed accusamus. Itaque numquam consequatur adipisci rerum quia. Ex est iure nihil sed assumenda."], ["image_url", "/tmp/chipotle.jpg"], ["name", "consequuntur"], ["updated_at", "2016-01-11 01:58:24.823423"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 11]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'harley.jast@nienow.name' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'harley.jast@nienow.name' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.856737"], ["email", "harley.jast@nienow.name"], ["full_name", "Timothy Metz"], ["password_digest", "$2a$04$h1wveGXM2iEi3oYUPK8W/uNOb3EYXMLNETyyOJOjrX8dRHSHIgbm2"], ["updated_at", "2016-01-11 01:58:24.856737"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"dolore", "description"=>"Tempora est mollitia qui sunt autem quia. Possimus omnis quibusdam soluta excepturi. Ipsam esse a vero.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.861135"], ["description", "Tempora est mollitia qui sunt autem quia. Possimus omnis quibusdam soluta excepturi. Ipsam esse a vero."], ["image_url", "/tmp/panda_express.jpg"], ["name", "dolore"], ["updated_at", "2016-01-11 01:58:24.861135"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'benton@kuhiczemlak.org' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'benton@kuhiczemlak.org' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.867771"], ["email", "benton@kuhiczemlak.org"], ["full_name", "Jamarcus Abshire"], ["password_digest", "$2a$04$lN4T3T9TSP1/EcsiQtIlN.Kz2qvdzjCEfiE.k67UD.uhWjeob9Db6"], ["updated_at", "2016-01-11 01:58:24.867771"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"optio", "description"=>"Ullam non numquam. Et et et. Sit id quos architecto autem.", "image_url"=>"/tmp/chipotle.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.872764"], ["description", "Ullam non numquam. Et et et. Sit id quos architecto autem."], ["image_url", "/tmp/chipotle.jpg"], ["name", "optio"], ["updated_at", "2016-01-11 01:58:24.872764"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'corine@howemaggio.net' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'corine@howemaggio.net' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.881037"], ["email", "corine@howemaggio.net"], ["full_name", "Chet Predovic"], ["password_digest", "$2a$04$LY.6qYWsLCAIaYm93TClm.QUIwdVPs6/7.2S2lz1xrZrZ70SKn3.."], ["updated_at", "2016-01-11 01:58:24.881037"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"repellat", "description"=>"Alias exercitationem molestias dolore libero. Quia eum voluptas magni officia. Voluptatibus qui enim beatae deleniti sint eum occaecati. Nulla est ut a eum eveniet.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.885278"], ["description", "Alias exercitationem molestias dolore libero. Quia eum voluptas magni officia. Voluptatibus qui enim beatae deleniti sint eum occaecati. Nulla est ut a eum eveniet."], ["image_url", "/tmp/panda_express.jpg"], ["name", "repellat"], ["updated_at", "2016-01-11 01:58:24.885278"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'brain_rutherford@cronin.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'brain_rutherford@cronin.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.893467"], ["email", "brain_rutherford@cronin.com"], ["full_name", "Dr. Heather Romaguera"], ["password_digest", "$2a$04$WV60VQDuOhNJi/OAi6LoxerHYDsZZFoFy.uiuzwBqWhJEAJzFHP4q"], ["updated_at", "2016-01-11 01:58:24.893467"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wyatt@metzcummerata.biz' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'wyatt@metzcummerata.biz' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:58:24.906442"], ["email", "wyatt@metzcummerata.biz"], ["full_name", "Glenna O'Kon"], ["password_digest", "$2a$04$Lq0zWMy9NugsWCgrV5H.aeT6AkI.KSgZ9H0M.XFYg3SpQ1bN8qJmW"], ["updated_at", "2016-01-11 01:58:24.906442"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'akeem.brekke@schultz.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'akeem.brekke@schultz.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:58:24.919085"], ["email", "akeem.brekke@schultz.com"], ["full_name", "Bridie Rau"], ["password_digest", "$2a$04$x3z3a9/RTieYeYRTTi5ABeb9heutjch1eXSEYYRz22pQRq4z3dB46"], ["updated_at", "2016-01-11 01:58:24.919085"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"similique", "description"=>"Sapiente sint et sunt soluta adipisci aliquid. Consectetur impedit sed est et. Laborum minus dolorem ratione officiis. Dolorem doloremque repudiandae reprehenderit officia expedita numquam fuga. Nisi inventore omnis impedit harum est.", "image_url"=>"/tmp/starbucks.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:41.902763"], ["description", "Laboriosam placeat qui cum et est ipsam. Nemo rerum quos qui quae. Doloremque mollitia voluptatem maiores deleniti ipsam ut. Id maiores distinctio. Impedit ut fugiat."], ["image_url", "/tmp/chipotle.jpg"], ["name", "reprehenderit"], ["updated_at", "2016-01-11 01:59:41.902763"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.908323"], ["description", "Unde ab nemo dicta eligendi. Non beatae voluptatem mollitia labore sit et. Id ipsa voluptas explicabo non quod. Deleniti consequatur dolore."], ["image_url", "/tmp/chipotle.jpg"], ["name", "voluptatum"], ["updated_at", "2016-01-11 01:59:41.908323"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#index as HTML
+  Rendered businesses/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lavon@rice.net' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'lavon@rice.net' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.950285"], ["email", "lavon@rice.net"], ["full_name", "General Ernser Sr."], ["password_digest", "$2a$04$7cmEwwAWn4kyHkd/rfZsLu7s6wvZQ5aCTlqy8kyFZNbjWodJaRVkK"], ["updated_at", "2016-01-11 01:59:41.950285"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"natus", "description"=>"Sed et dolorem itaque. Esse qui et illum deleniti exercitationem ducimus ad. Quam maxime iure et quis nam impedit. Fugit culpa minima aut ut repudiandae. Quaerat rerum inventore ut dolorem.", "image_url"=>"/tmp/panda_express.jpg"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.955443"], ["description", "Sed et dolorem itaque. Esse qui et illum deleniti exercitationem ducimus ad. Quam maxime iure et quis nam impedit. Fugit culpa minima aut ut repudiandae. Quaerat rerum inventore ut dolorem."], ["image_url", "/tmp/panda_express.jpg"], ["name", "natus"], ["updated_at", "2016-01-11 01:59:41.955443"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "businesses"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'zackery@heaneykunde.net' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'zackery@heaneykunde.net' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.964967"], ["email", "zackery@heaneykunde.net"], ["full_name", "Carolina Schaden"], ["password_digest", "$2a$04$72D13WeQU1rLqq.D4LbRIOyyy5GZFvLca40WawpZ/az60O3x5cvTa"], ["updated_at", "2016-01-11 01:59:41.964967"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"rerum", "description"=>"Dolorum quasi sapiente velit explicabo occaecati totam. Quisquam reprehenderit asperiores. Voluptas et incidunt qui omnis voluptatem. Quas harum expedita id sequi quod.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.969280"], ["description", "Dolorum quasi sapiente velit explicabo occaecati totam. Quisquam reprehenderit asperiores. Voluptas et incidunt qui omnis voluptatem. Quas harum expedita id sequi quod."], ["image_url", "/tmp/starbucks.jpg"], ["name", "rerum"], ["updated_at", "2016-01-11 01:59:41.969280"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/home
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jonas.rodriguez@beahan.biz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'jonas.rodriguez@beahan.biz' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:41.976624"], ["email", "jonas.rodriguez@beahan.biz"], ["full_name", "Martine Stoltenberg"], ["password_digest", "$2a$04$TjB261cs1bo44LCvhMTgdeIqLdaNqNkuu8xRNfYlq5CfJ8Wl.H61S"], ["updated_at", "2016-01-11 01:59:41.976624"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"dolorem", "description"=>"Est blanditiis illum et perspiciatis. Quos ut et aut. Commodi delectus voluptatem fugiat nostrum beatae.", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:41.980290"], ["description", "Est blanditiis illum et perspiciatis. Quos ut et aut. Commodi delectus voluptatem fugiat nostrum beatae."], ["image_url", "/tmp/starbucks.jpg"], ["name", "dolorem"], ["updated_at", "2016-01-11 01:59:41.980290"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/home
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'robbie.jacobs@reilly.name' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'robbie.jacobs@reilly.name' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:41.988196"], ["email", "robbie.jacobs@reilly.name"], ["full_name", "Dr. Madie Hoppe"], ["password_digest", "$2a$04$wd0522TsGg9esA2GJsCUgOjBevaSHP5uYSlLlecf377vURz5ZkZY2"], ["updated_at", "2016-01-11 01:59:41.988196"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "businesses"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'cordie@parisian.info' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'cordie@parisian.info' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:42.005777"], ["email", "cordie@parisian.info"], ["full_name", "Gudrun Paucek"], ["password_digest", "$2a$04$0jv.JJcQchQ/uziKgfD19ujNjG7wsoWIjWNM2CuXuZvrvkTI7IOaO"], ["updated_at", "2016-01-11 01:59:42.005777"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sharon@treutel.name' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sharon@treutel.name' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:42.018961"], ["email", "sharon@treutel.name"], ["full_name", "Garry Champlin"], ["password_digest", "$2a$04$TgHPv0sey8adXFSJwN236Og1c0qPwRutubPQBNfNVeRmF1DbJ7OVi"], ["updated_at", "2016-01-11 01:59:42.018961"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BusinessesController#create as HTML
+  Parameters: {"business"=>{"name"=>"Starbucks", "image_url"=>"/tmp/starbucks.jpg"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by BusinessesController#create as HTML
+  Parameters: {"name"=>"molestiae", "description"=>"Optio consequatur fugiat error. Corporis ut atque libero dicta hic voluptatem. Soluta eveniet quia voluptates debitis quis. Doloribus qui nihil voluptatum expedita velit vel aspernatur.", "image_url"=>"/tmp/chipotle.jpg"}
+Redirected to http://test.host/sign_in
+Filter chain halted as :require_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-11 01:59:42.031355"], ["description", "Consequatur aut est sit error molestiae. Optio et rem asperiores qui voluptatibus expedita soluta. Non id soluta ut maiores repudiandae."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-11 01:59:42.031355"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:42.033219"], ["description", "Ut earum maxime iure quis. Ipsum vel est omnis illum. Architecto ex voluptatem pariatur unde deserunt."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Potluck"], ["updated_at", "2016-01-11 01:59:42.033219"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#search as HTML
+  Parameters: {"search_term"=>"pot"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36mBusiness Load (2.6ms)[0m  [1mSELECT "businesses".* FROM "businesses"  WHERE (lower(name) LIKE '%pot%')  ORDER BY created_at DESC[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:42.043094"], ["description", "Ullam non et. A maiores illum. Autem enim reiciendis minima."], ["image_url", "/tmp/starbucks.jpg"], ["name", "pariatur"], ["updated_at", "2016-01-11 01:59:42.043094"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 22]]
+Completed 200 OK in 9ms (Views: 1.4ms | ActiveRecord: 2.1ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-11 01:59:42.057341"], ["description", "Repudiandae et voluptatum impedit provident nihil blanditiis porro. Optio aut voluptatem neque est recusandae ea. Unde ab quis modi quia voluptas ducimus id. Doloremque quis eaque consequatur cumque ad sapiente sit. Ut atque rerum tenetur."], ["image_url", "/tmp/panda_express.jpg"], ["name", "eum"], ["updated_at", "2016-01-11 01:59:42.057341"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 23]]
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK

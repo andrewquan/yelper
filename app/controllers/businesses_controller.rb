@@ -25,6 +25,10 @@ class BusinessesController < ApplicationController
     end
   end
 
+  def search
+    @results = Business.search_by_name(params[:search_term])
+  end
+
   private
 
   def business_params
