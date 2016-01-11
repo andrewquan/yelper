@@ -2,7 +2,8 @@
   %h1.col-md-2
     = link_to image_tag('/tmp/yelp_logo.png', width: 100, height: 50), home_path
   %ul.col-md-4.clearfix
-    %li= link_to "Add a Business", new_business_path
+    - if current_user
+      %li= link_to "Add a Business", new_business_path
   = form_tag search_businesses_path, class: "col-md-5 navbar-form" do
     .form-group
       = text_field_tag :search_term, params[:search_term], type: "text", class: "form-control", placeholder: "Search for businesses here"
