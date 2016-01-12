@@ -12,16 +12,17 @@
 %section.reviews.container
   .row
     .col-sm-10.col-sm-offset-1
-      = form_for [@business, @review] do |f|
-        %fieldset
-          .form-group
-            %label Write Review
-            .row
-              .col-sm-8
-                = f.text_area :content, rows: "6", class: "form-control"
-        %fieldset.form-group.actions.clearfix
-          = f.submit "Submit", class: 'btn'
-          = link_to "Cancel", business_path(@business)
+      - if current_user
+        = form_for [@business, @review] do |f|
+          %fieldset
+            .form-group
+              %label Write Review
+              .row
+                .col-sm-8
+                  = f.text_area :content, rows: "6", class: "form-control"
+          %fieldset.form-group.actions.clearfix
+            = f.submit "Submit", class: 'btn'
+            = link_to "Cancel", business_path(@business)
       %header
         %h3 User Reviews ("#{@business.reviews.count}")
       %ul

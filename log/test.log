@@ -11664,3 +11664,130 @@ Processing by BusinessesController#index as HTML
   Rendered shared/_messages.html.haml (0.2ms)
 Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.8ms)
   [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'max@dibbert.biz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'max@dibbert.biz' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-12 01:11:24.889359"], ["email", "max@dibbert.biz"], ["full_name", "Roosevelt Jaskolski DVM"], ["password_digest", "$2a$04$0DRSXYuSsEKqDkI..RK17OruB9U.X7c73snOW5H/M3GBCrbfBpdHy"], ["updated_at", "2016-01-12 01:11:24.889359"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/sign_in" for 127.0.0.1 at 2016-01-11 17:11:24 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (4.2ms)
+  Rendered shared/_header.html.haml (4.0ms)
+  Rendered shared/_messages.html.haml (1.2ms)
+Completed 200 OK in 103ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+Started POST "/sign_in" for 127.0.0.1 at 2016-01-11 17:11:25 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "email"=>"max@dibbert.biz", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'max@dibbert.biz' LIMIT 1
+Redirected to http://www.example.com/home
+Completed 302 Found in 7ms (ActiveRecord: 0.4ms)
+Started GET "/home" for 127.0.0.1 at 2016-01-11 17:11:25 -0800
+Processing by BusinessesController#index as HTML
+  [1m[36mBusiness Load (1.2ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35mReview Load (1.1ms)[0m  SELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6
+  Rendered businesses/index.html.haml within layouts/application (10.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered shared/_header.html.haml (2.1ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 2.5ms)
+Started GET "/businesses/new" for 127.0.0.1 at 2016-01-11 17:11:25 -0800
+Processing by BusinessesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered businesses/new.html.haml within layouts/application (15.0ms)
+  Rendered shared/_header.html.haml (0.8ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 1.9ms)
+Started POST "/businesses" for 127.0.0.1 at 2016-01-11 17:11:25 -0800
+Processing by BusinessesController#create as HTML
+  Parameters: {"utf8"=>"✓", "business"=>{"name"=>"Starbucks", "description"=>"Coffee shop.", "image_url"=>"/tmp/starbucks.jpg"}, "commit"=>"Register Business"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-12 01:11:25.091293"], ["description", "Coffee shop."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-12 01:11:25.091293"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/home
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+Started GET "/home" for 127.0.0.1 at 2016-01-11 17:11:25 -0800
+Processing by BusinessesController#index as HTML
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35mReview Load (0.3ms)[0m  SELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6
+  Rendered businesses/index.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered shared/_header.html.haml (2.1ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-12 01:12:58.988737"], ["description", "Mexican food."], ["image_url", "/tmp/chipotle.jpg"], ["name", "Chipotle"], ["updated_at", "2016-01-12 01:12:58.988737"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-12 01:12:58.993665"], ["description", "Coffee chain."], ["image_url", "/tmp/starbucks.jpg"], ["name", "Starbucks"], ["updated_at", "2016-01-12 01:12:58.993665"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("created_at", "description", "image_url", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2016-01-12 01:12:58.995202"], ["description", "Chinese food."], ["image_url", "/tmp/panda_express.jpg"], ["name", "Panda Express"], ["updated_at", "2016-01-12 01:12:58.995202"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'eliseo@kaulke.biz' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'eliseo@kaulke.biz' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2016-01-12 01:12:59.486108"], ["email", "eliseo@kaulke.biz"], ["full_name", "Caesar Jaskolski"], ["password_digest", "$2a$04$4ZnqtlHYrWVwcvQ4HJI7FeZe2HrmdM5oJ8qH80X4xvb1dbVq4lzHy"], ["updated_at", "2016-01-12 01:12:59.486108"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/sign_in" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (4.7ms)
+  Rendered shared/_header.html.haml (3.7ms)
+  Rendered shared/_messages.html.haml (1.0ms)
+Completed 200 OK in 108ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+Started POST "/sign_in" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "email"=>"eliseo@kaulke.biz", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'eliseo@kaulke.biz' LIMIT 1[0m
+Redirected to http://www.example.com/home
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+Started GET "/home" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by BusinessesController#index as HTML
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT "businesses".* FROM "businesses"
+  [1m[36mReview Load (0.9ms)[0m  [1mSELECT  "reviews".* FROM "reviews"   ORDER BY created_at DESC LIMIT 6[0m
+  Rendered businesses/index.html.haml within layouts/application (9.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 37]]
+  Rendered shared/_header.html.haml (1.9ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 1.5ms)
+Started GET "/businesses/42" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."business_id" = $1[0m  [["business_id", 42]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 42]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1[0m  [["business_id", 42]]
+  Rendered businesses/show.html.haml within layouts/application (27.6ms)
+  Rendered shared/_header.html.haml (0.7ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 36ms (Views: 30.6ms | ActiveRecord: 3.7ms)
+Started POST "/businesses/42/reviews" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "review"=>{"content"=>"Awesome food!"}, "commit"=>"Submit", "business_id"=>"42"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = 42 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "reviews" ("business_id", "content", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["business_id", 42], ["content", "Awesome food!"], ["created_at", "2016-01-12 01:12:59.714951"], ["updated_at", "2016-01-12 01:12:59.714951"], ["user_id", 37]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/businesses/42
+Completed 302 Found in 16ms (ActiveRecord: 1.5ms)
+Started GET "/businesses/42" for 127.0.0.1 at 2016-01-11 17:12:59 -0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."business_id" = $1[0m  [["business_id", 42]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 42]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1[0m  [["business_id", 42]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 37]]
+  Rendered businesses/show.html.haml within layouts/application (6.1ms)
+  Rendered shared/_header.html.haml (0.8ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m

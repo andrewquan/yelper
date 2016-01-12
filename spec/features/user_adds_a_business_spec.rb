@@ -10,7 +10,7 @@ feature "user adds a business" do
     fill_in "Description", with: "Coffee shop."
     select "Coffee", from: "Choose an image"
     click_button "Register Business"
-    expect(page).to have_content "Starbucks"
+    expect(page).to have_content "You successfully added a business."
   end
 
   def visit_add_business_page

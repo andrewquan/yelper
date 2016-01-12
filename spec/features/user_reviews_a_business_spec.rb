@@ -21,6 +21,6 @@ feature "user reviews a business" do
   def submit_review(content)
     fill_in "review[content]", with: content
     click_button "Submit"
-    expect(page).to have_content content
+    expect(page).to have_content "Thanks for your review!"
   end
 end
